@@ -64,8 +64,8 @@ The time complexity of the above code is O(n^2) and the space complexity is O(n)
 
 
 ## Justification for using Python Programming Language
-Python ius eas
-
+Python is comfortable for me to use . I remember the syntax for python and I am not satisfied with myh work which I did now but I have utilzed my 2 hrs time to atleast make a analysis and I assure you that ill not stop working at this and I realized I have to focus more and concentrate. Loved the prtessure situation and realized a lot . 
+This is my analysis mam
 
 
 
