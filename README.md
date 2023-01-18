@@ -8,12 +8,12 @@
 
 ##Prims Algorithm
 
-*Step 1: Select a starting vertex  
-*Step 2: Repeat Steps 3 and 4 until there are fringe vertices  
-*Step 3: Select an edge 'e' connecting the tree vertex and fringe vertex that has minimum weight  
-*Step 4: Add the selected edge and the vertex to the minimum spanning tree T  
+* Step 1: Select a starting vertex  
+* Step 2: Repeat Steps 3 and 4 until there are fringe vertices  
+* Step 3: Select an edge 'e' connecting the tree vertex and fringe vertex that has minimum weight  
+* Step 4: Add the selected edge and the vertex to the minimum spanning tree T  
 [END OF LOOP]  
-*Step 5: EXIT  
+* Step 5: EXIT  
 
 ##Implementation
 
@@ -24,13 +24,15 @@ The time complexity of the above implementation of Prim's algorithm is O(n^2) an
 
 
 
+
+
 ##Kruskals Algorithm
 
-*Step 1: Sort all edges in increasing order of their edge weights.
-*Step 2: Pick the smallest edge.
-*Step 3: Check if the new edge creates a cycle or loop in a spanning tree.
-*Step 4: If it doesn’t form the cycle, then include that edge in MST. Otherwise, discard it.
-*Step 5: Repeat from step 2 until it includes |V| - 1 edges in MST.
+* Step 1: Sort all edges in increasing order of their edge weights.
+* Step 2: Pick the smallest edge.
+* Step 3: Check if the new edge creates a cycle or loop in a spanning tree.
+* Step 4: If it doesn’t form the cycle, then include that edge in MST. Otherwise, discard it.
+* Step 5: Repeat from step 2 until it includes |V| - 1 edges in MST.
 
 ##Analysis
 
@@ -39,6 +41,8 @@ Kruskal's algorithm is a minimum spanning tree algorithm that works on undirecte
 So I am thinking of convertying the directed graph to undirected graph and then applying kruskals algorithm. Else I have been thinking of penalizing or ignoring the negative weight.
 
 The time complexity of the above implementation of Kruskal's algorithm is O(n^2 log n) and the space complexity is O(n).
+
+
 
 ##Djikstras Algorithm
 Let the node at which we are starting be called the initial node. Let the distance of node Y be the distance from the initial node to Y. Dijkstra's algorithm will initially start with infinite distances and will try to improve them step by step.
