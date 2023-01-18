@@ -22,7 +22,7 @@
 ##Analysis
 
 
-###Kruskals Algorithm
+##Kruskals Algorithm
 
 *Step 1: Sort all edges in increasing order of their edge weights.
 *Step 2: Pick the smallest edge.
