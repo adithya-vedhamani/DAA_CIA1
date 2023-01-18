@@ -3,4 +3,5 @@
 
 ##Given Directed Graph
 
-![image](https://user-images.githubusercontent.com/73640313/213088501-a5de4845-aa77-498e-86dc-78e782a93a5a.png)
+![image](https://user-images.githubusercontent.com/73640313/213088607-75d70d92-a81b-4fb9-9eb6-fb954c756a09.png)
+
