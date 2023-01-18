@@ -37,4 +37,7 @@ From my analysis
 Kruskal's algorithm is a minimum spanning tree algorithm that works on undirected, weighted graphs. It cannot be used on directed, weighted graphs because it relies on the properties of undirected graphs, such as the fact that the edges do not have a direction and that the minimum spanning tree is unique. In directed weighted graph, there can be multiple spanning tree and also the edges have direction. Thus Kruskal's algorithm is not suitable for this case.
 So I am thinking of convertying the directed graph to undirected graph and then applying kruskals algorithm. Else I have been thinking of penalizing or ignoring the negative weight.
 
+The time complexity of the above implementation of Kruskal's algorithm is O(n^2 log n) and the space complexity is O(n).
+
+##Djikstras Algorithm
 
