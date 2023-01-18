@@ -1,12 +1,12 @@
 # DAA_CIA1
 
 
-###Given Directed Graph
+### Given Directed Graph
 
 ![image](https://user-images.githubusercontent.com/73640313/213088607-75d70d92-a81b-4fb9-9eb6-fb954c756a09.png)
 
 
-###Prims Algorithm
+### Prims Algorithm
 
 * Step 1: Select a starting vertex  
 * Step 2: Repeat Steps 3 and 4 until there are fringe vertices  
@@ -15,18 +15,18 @@
 [END OF LOOP]  
 * Step 5: EXIT  
 
-##Implementation
+## Implementation
 
 ![image](https://user-images.githubusercontent.com/73640313/213093742-060cf5af-9739-49e1-ada7-12946e9a220d.png)
 
-##Analysis
+## Analysis
 The time complexity of the above implementation of Prim's algorithm is O(n^2) and the space complexity is O(n^2)
 
 
 
 
 
-###Kruskals Algorithm
+### Kruskals Algorithm
 
 * Step 1: Sort all edges in increasing order of their edge weights.
 * Step 2: Pick the smallest edge.
@@ -34,7 +34,7 @@ The time complexity of the above implementation of Prim's algorithm is O(n^2) an
 * Step 4: If it doesn’t form the cycle, then include that edge in MST. Otherwise, discard it.
 * Step 5: Repeat from step 2 until it includes |V| - 1 edges in MST.
 
-##Analysis
+## Analysis
 
 From my analysis
 Kruskal's algorithm is a minimum spanning tree algorithm that works on undirected, weighted graphs. It cannot be used on directed, weighted graphs because it relies on the properties of undirected graphs, such as the fact that the edges do not have a direction and that the minimum spanning tree is unique. In directed weighted graph, there can be multiple spanning tree and also the edges have direction. Thus Kruskal's algorithm is not suitable for this case.
@@ -44,7 +44,7 @@ The time complexity of the above implementation of Kruskal's algorithm is O(n^2 
 
 
 
-###Djikstras Algorithm
+### Djikstras Algorithm
 Let the node at which we are starting be called the initial node. Let the distance of node Y be the distance from the initial node to Y. Dijkstra's algorithm will initially start with infinite distances and will try to improve them step by step.
 
 * Mark all nodes unvisited. Create a set of all the unvisited nodes called the unvisited set.
@@ -55,11 +55,12 @@ Let the node at which we are starting be called the initial node. Let the distan
 * Otherwise, select the unvisited node that is marked with the smallest tentative distance, set it as the new current node, and go back to step 3.
 
 
-##Implementation
+## Implementation
 
 ![image](https://user-images.githubusercontent.com/73640313/213097953-ab2ce751-c7e0-43f8-b9bb-4db9f66e5b2c.png)
 
-##Analysis
+## Analysis
+The time complexity of the above code is O(n^2) and the space complexity is O(n)
 
 
 
