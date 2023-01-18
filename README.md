@@ -15,5 +15,8 @@ Step 4: Add the selected edge and the vertex to the minimum spanning tree T
 [END OF LOOP]  
 Step 5: EXIT  
 
-##
+##Implementation
+
+
+###Kruskals Algorithm
 
